@@ -6,7 +6,9 @@
   margin: 92px auto 96px;
 }
 
-.header__menu { font-size: 18px; }
+.header__menu {
+  font-size: 18px;
+}
 
 .header__links-list {
   display: flex;
@@ -14,17 +16,23 @@
   list-style: circle;
 }
 
-.header__links-list-item_no-bullit { list-style: none; }
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
 
 .header__link_active,
-.footer__menu-link_active { text-decoration: none; }
+.footer__menu-link_active {
+  text-decoration: none;
+}
 
 .header__logo {
   display: block;
   width: 148px;
 }
 
-.header__logo-image { display: block; }
+.header__logo-image {
+  display: block;
+}
 
 .address {
   display: flex;
@@ -36,7 +44,9 @@
   line-height: 1.35;
 }
 
-.header__address { justify-self: end; }
+.header__address {
+  justify-self: end;
+}
 
 .cover {
   position: relative;
@@ -72,10 +82,17 @@
   text-align: center;
 }
 
-.aligned-text_right { text-align: right; }
+.aligned-text_right {
+  text-align: right;
+}
 
-.letter-spacing-extended { letter-spacing: 60px; }
-.no-letter-spacing { letter-spacing: 0; }
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
 
 .cover__description {
   position: relative;
@@ -103,7 +120,9 @@
   background-color: transparent;
 }
 
-.lots { margin: 180px 24px 0; }
+.lots {
+  margin: 180px 24px 0;
+}
 
 .lots__heading,
 .about__title {
@@ -113,7 +132,9 @@
   text-transform: uppercase;
 }
 
-.lots__heading { margin-left: 40px; }
+.lots__heading {
+  margin-left: 40px;
+}
 
 .lots__card-list {
   display: flex;
@@ -146,9 +167,17 @@
   background-size: cover;
 }
 
-.card_type_film { background-image: url(../images/card-lot-01.jpg); }
-.card_type_book { background-image: url(../images/card-lot-02.jpg); }
-.card_type_picture { background-image: url(../images/card-lot-03.jpg); }
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
 
 .card__title,
 .card__text {
@@ -192,8 +221,13 @@
   background-color: #000;
 }
 
-.about__logo-image { width: 148px; }
-.about__title { margin-top: 101px; }
+.about__logo-image {
+  width: 148px;
+}
+
+.about__title {
+  margin-top: 101px;
+}
 
 .about__text {
   display: flex;
@@ -217,7 +251,9 @@
 }
 
 .footer__menu-list,
-.footer__social-list { list-style: none; }
+.footer__social-list {
+  list-style: none;
+}
 
 .footer__social-list {
   display: flex;
@@ -231,4 +267,6 @@
   height: 48px;
 }
 
-.footer__social-icon { display: block; }
+.footer__social-icon {
+  display: block;
+}
